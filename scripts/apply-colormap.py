@@ -8,9 +8,9 @@ import os
 
 IMAGE = sys.argv[1]
 
-fn_c = IMAGE + '/stitchalign/colormap.json'
-fn_t = IMAGE + '/stitchalign/thermal.tiff'
-fn_v = IMAGE + '/stitchalign/visible.tiff'
+fn_c = IMAGE + '/colormap.json'
+fn_t = IMAGE + '/thermal.tiff'
+fn_v = IMAGE + '/visible.tiff'
 fn_mapped = IMAGE + '/mapped.tiff'
 fn_scale = IMAGE + '/scale.tiff'
 fn_layout = IMAGE + '/layout.svg'
