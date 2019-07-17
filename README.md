@@ -2,7 +2,7 @@
 
 Original thermal data for all of the images. Documentation will be completed shortly.
 
-* colormap.json -- a color scale for each image
+* colormap.json -- a color scale for each image, specified as an array of ```[temperature, B, G, R, alpha]``` which are linearly interpolated. alpha specifies the amount by which the visible light image is combined with the brightness channel. the visible light image does not contribute to hue or saturation channels.
 * thermal.zip -- original radiometric data from the thermal camera
 * thermal.tiff -- panoramic stitched thermal data
 * visible.tiff -- corresponding monochrome visible light image from a regular SLR
